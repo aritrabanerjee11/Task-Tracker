@@ -37,7 +37,7 @@ function App() {
       <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} /> 
       )
       : (
-        'Aage badooo.'
+        'Add a Task.'
       )}
     </div>
   );
